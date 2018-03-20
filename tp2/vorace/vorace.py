@@ -16,15 +16,5 @@ if __name__ == '__main__':
             temp = open("../data/"+file)
             i = i+1
 
-    bloc = Bloque.makeBloque(temp.readline(), 12, 12)
-    print(bloc.largeur)
-
-
-#block = Block(12, 22, 33)
-#print block.longueur
-#print block.hauteur
-#print block.largeur
-
-#F = open("../data/b100_1.txt")
-#print F.readline()
-
+    bloc = Bloque(5)
+    print(bloc.getLongueur())
